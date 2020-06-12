@@ -86,7 +86,7 @@
             line-height: 350px;
             padding: 0.3cm;
             background-color:#ffffff;
-            border: 0.1cm solid #c11b17;
+            border: 0.1cm solid black;
         }
         #imageHolder img {
             max-width: 100%;
