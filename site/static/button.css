@@ -1,0 +1,45 @@
+.button {
+    border: 5%;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    width: 80%;
+}
+
+.button1 {
+    background-color: #c11b17;
+    position: center;
+    margin-left: 30px;
+    /* position: absolute; */
+}
+
+
+/* Green */
+
+.button2 {
+    background-color: #c11b17;
+    position: center;
+    margin-left: 70px;
+    width: 40%;
+    /* position: absolute; */
+}
+
+.button3 {
+    background-color: #c11b17;
+    position: center;
+    
+    margin-left: 70px;
+    width: 30%;
+    padding: 0.1cm;
+
+    font-size: 15px;
+    color:white;
+    /* position: absolute; */
+}
+
+
+/* Blue */
