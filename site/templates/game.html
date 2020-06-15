@@ -19,10 +19,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 
-    <title>Paraphrasing Tool</title>
+    <title>RnD Demo</title>
 </head>
 
-<body style="background-color: #fff8dc;">
+<body style="background-color: #fff2bd;">
     <div style="margin-top: 0.1cm;" class=" row ">
 
         <div style="margin-top: 0.0cm;" class="column ">
@@ -168,7 +168,7 @@
                 <select name="cars3" id="cars3">
                     <optgroup label="Correlation Scores Comparison">
                         <option value="Proposed Metrics">Proposed Metrics</option>
-                        <option value="With Baseline Metrics">With Baseline Metrics</option>
+                        <option value="Signicance Test Results">Signicance Test Results</option>
                     </optgroup>
                 </select>
                 <br><br>
@@ -183,10 +183,10 @@
                             var val1 = "{{ url_for('static',filename='proposed bleu.png') }}";
                             var val2 = "{{ url_for('static',filename='Correlation Score Comparison (BLEU Scores).png') }}";
                         }
-                        else
+                        else 
                         {
-                            var val1 = "{{ url_for('static',filename='Correlation Scores.png') }}";
-                            var val2 = "{{ url_for('static',filename='Correlation Score Comparison.png') }}";
+                            var val1 = "{{ url_for('static',filename='sigg.png') }}";
+                            var val2 = "{{ url_for('static',filename='significance.png') }}";
                         }
                         document.getElementById("cars3").value = "<?php echo $_GET['cars3'];?>";
                         $('#img1').attr('src', val1);
