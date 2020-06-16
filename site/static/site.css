@@ -1,7 +1,7 @@
 .column {
     float: left;
     width: 50%;
-    color: #c11b17;
+    color: #003EFF;
     align-content: center;
     margin: auto auto;
 }
@@ -13,7 +13,7 @@
     content: "";
     display: table;
     clear: both;
-    color: #c11b17;
+    color: #003EFF;
     /* float: left; */
     align-content: center;
     width: 50%;
@@ -24,7 +24,7 @@
 .column1 {
     float: left;
     width: 33%;
-    color: #c11b17;
+    color: #003EFF;
     align-content: center;
     margin: auto auto;
 }
@@ -36,7 +36,7 @@
     content: "";
     display: table;
     clear: both;
-    color: #c11b17;
+    color: #003EFF;
     /* float: left; */
     align-content: center;
     width: 50%;
@@ -46,7 +46,7 @@
 .column2 {
     float: left;
     width: 50%;
-    color: #c11b17;
+    color: #003EFF;
     align-content: center;
     margin: auto auto;
 }
@@ -55,7 +55,7 @@
 .column3 {
     float: left;
     width: 100%;
-    color: #c11b17;
+    color: #003EFF;
     align-content: center;
     margin: auto auto;
 }
@@ -64,7 +64,7 @@
 .column4 {
     float: left;
     width: 33%;
-    color: #41a317;
+    color: #003EFF;
     align-content: center;
     margin: auto auto;
 }
@@ -86,7 +86,7 @@
             line-height: 350px;
             padding: 0.2cm;
             background-color:#ffffff;
-            border: 0.1cm solid black;
+            border: 0.1cm solid#0D4F8B;
         }
         #imageHolder img {
             max-width: 100%;
