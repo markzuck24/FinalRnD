@@ -1,0 +1,11 @@
+0.204889826270522
+1
+0.213658377649725
+2
+0.246092351660728
+3
+0.227631645713083
+4
+0.244284730258754
+5
+<_io.TextIOWrapper name='/home/adi/Videos/FinalRnD/paraphrased files for WMT14/cs-en/tokens/1.txt' mode='w' encoding='UTF-8'><_io.TextIOWrapper name='/home/adi/Videos/FinalRnD/paraphrased files for WMT14/cs-en/tokens/1.txt' mode='w' encoding='UTF-8'>
