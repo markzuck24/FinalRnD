@@ -24,12 +24,23 @@
 
 
     <style>
+        body {
+            left: 0;
+            top: 0;
+            margin: 1px;
+            padding: 10px;
+            padding-top: 2px;
+            overflow: hidden;
+        }
+
         ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
             overflow: hidden;
             background-color: #0D4F8B;
+            display: block;
+
         }
 
         li {
@@ -42,6 +53,7 @@
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
+            display: block;
         }
 
         li a:hover:not(.active) {
@@ -57,14 +69,16 @@
 <body>
 
     <ul style="position: reltive;">
-        <li><a  href="http://www.iitb.ac.in/" target="_blank">IIT BOMBAY</a></li>
-        <li><a  href="http://www.cfilt.iitb.ac.in/" target="_blank">CFILT</a></li>
+        <li><a href="http://www.iitb.ac.in/" target="_blank">IIT BOMBAY</a></li>
+        <li><a href="http://www.cfilt.iitb.ac.in/" target="_blank">CFILT</a></li>
         <li><a href="https://docs.google.com/presentation/d/1ovAgC3qqW7-EKxjWZzrPsGilv0IHt4xQvtJXWpcx1Tg/edit?usp=sharing"
                 target="_blank">PROJECT REPORT</a></li>
-        <li><a  href="https://github.com/markzuck24/FinalRnD.git" target="_blank">PROJECT CODE</a></li>
-        <li style="float:right"><a href="https://www.facebook.com/profile.php?id=100005741560385"
-            target="_blank"> Student: Aditya Jain (Contact)</a></li>
-        <li style="float:right"><a  href="https://www.cse.iitb.ac.in/~pb/" target="_blank">Guide: Dr. Pushpak Bhattacharyya</a></li>
+        <li><a href="https://github.com/markzuck24/FinalRnD.git" target="_blank">PROJECT CODE</a></li>
+        <li><a href="http://www.statmt.org/wmt14/results.html" target="_blank">DATASET</a></li>
+        <li style="float:right"><a href="https://www.facebook.com/profile.php?id=100005741560385" target="_blank">
+                Student: Aditya Jain (Contact)</a></li>
+        <li style="float:right"><a href="https://www.cse.iitb.ac.in/~pb/" target="_blank">Guide: Dr. Pushpak
+                Bhattacharyya</a></li>
     </ul>
     </head>
 
@@ -154,13 +168,13 @@
                     <label style="color: #0D4F8B;" for="cars2">Select a Language Pair :</label>
 
                     <select name="cars2" id="cars2">
-                        <optgroup label="WMT 14 Language Pairs">
+                        
                             <option value="cs-en">cs-en</option>
                             <option value="de-en">de-en</option>
                             <option value="fr-en">fr-en</option>
                             <option value="hi-en">hi-en</option>
                             <option value="ru-en">ru-en</option>
-                        </optgroup>
+                        
                     </select>
                     <br><br>
                     <input class="button3" style="  margin: 1cm;" type="submit" id="bbb2" value="Submit">
@@ -247,4 +261,3 @@
 
 
 </html>
-

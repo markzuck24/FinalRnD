@@ -1,22 +1,26 @@
 .column {
     float: left;
     width: 50%;
-    color: #003EFF;
+    color: #0D4F8B;
     align-content: center;
     margin: auto auto;
+    overflow: hidden;
 }
 
-
+body.noScroll { /* ...or body.dialogShowing */
+  overflow: hidden;
+}
 /* Clear floats after the columns */
 
 .row:after {
     content: "";
     display: table;
     clear: both;
-    color: #003EFF;
+    color: #0D4F8B;
     /* float: left; */
     align-content: center;
     width: 50%;
+    overflow: hidden;
     /* margin: auto auto; */
 }
 
@@ -24,7 +28,7 @@
 .column1 {
     float: left;
     width: 33%;
-    color: #003EFF;
+    color: #0D4F8B;
     align-content: center;
     margin: auto auto;
 }
@@ -36,7 +40,7 @@
     content: "";
     display: table;
     clear: both;
-    color: #003EFF;
+    color: #0D4F8B;
     /* float: left; */
     align-content: center;
     width: 50%;
@@ -46,7 +50,7 @@
 .column2 {
     float: left;
     width: 50%;
-    color: #003EFF;
+    color: #0D4F8B;
     align-content: center;
     margin: auto auto;
 }
@@ -55,7 +59,7 @@
 .column3 {
     float: left;
     width: 100%;
-    color: #003EFF;
+    color: #0D4F8B;
     align-content: center;
     margin: auto auto;
 }
@@ -64,7 +68,7 @@
 .column4 {
     float: left;
     width: 33%;
-    color: #003EFF;
+    color: #0D4F8B;
     align-content: center;
     margin: auto auto;
 }
