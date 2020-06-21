@@ -20,20 +20,78 @@
 
 
     <title>Paraphrasing Tool</title>
+
+    <style>
+        body {
+            left: 0;
+            top: 0;
+            margin: 1px;
+            padding: 10px;
+            padding-top: 2px;
+            overflow: hidden;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #800080;
+            display: block;
+
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #9932CC;
+        }
+
+        .active {
+            background-color: #FDF8FF;
+        }
+    </style>
+
 </head>
 
-<body style="background-color: #CFD8DC;">
+<body style="background-color: #FDF8FF;">
+
+    <ul style="position: reltive;">
+        <li><a href="http://www.iitb.ac.in/" target="_blank">IIT BOMBAY</a></li>
+        <li><a href="http://www.cfilt.iitb.ac.in/" target="_blank">CFILT</a></li>
+        <li><a href="https://docs.google.com/presentation/d/1ovAgC3qqW7-EKxjWZzrPsGilv0IHt4xQvtJXWpcx1Tg/edit?usp=sharing"
+                target="_blank">PROJECT REPORT</a></li>
+        <li><a href="https://github.com/markzuck24/FinalRnD.git" target="_blank">PROJECT CODE</a></li>
+        <li><a href="http://www.statmt.org/wmt14/results.html" target="_blank">DATASET</a></li>
+        <li><a href="https://docs.google.com/spreadsheets/d/18HucJEjLzOmeqRl_4hZXF5xYlf8ShcyL_ej0-1ZN88g/edit?usp=sharing" target="_blank">ANALYSIS</a></li>
+        <li style="float:right"><a href="https://www.facebook.com/profile.php?id=100005741560385" target="_blank">
+                Student: Aditya Jain (Contact)</a></li>
+        <li style="float:right"><a href="https://www.cse.iitb.ac.in/~pb/" target="_blank">Guide: Dr. Pushpak
+                Bhattacharyya</a></li>
+    </ul>
+    </head>
     <div class=" row ">
 
         <div class="column ">
             <h1 style=" text-align :center">Single Reference</h1>
-            <textarea style="margin-left: 30px; border:3px solid #000000;" rows="12 " cols="70 " id="aditya">    
+            <textarea style="margin-left: 30px; border:3px solid #800080;" rows="12 " cols="70 " id="aditya">    
                 Enter the sentence to be paraphrased here.
             </textarea>
         </div>
         <div class="column ">
             <h1 style="  text-align :center ">Multiple References</h1>
-            <textarea style="margin-left: 30px; border:3px solid #000000;" rows="12 " cols="70 " id="output" readonly>    
+            <textarea style="margin-left: 30px; border:3px solid #800080;" rows="12 " cols="70 " id="output" readonly>    
                 Paraphrased sentences will be displayed here.
             </textarea>
         </div>
@@ -81,13 +139,13 @@
 
         <div class="column ">
             <!-- <h1 style=" text-align :center ">Input Sentence</h1> -->
-            <textarea style=" margin-top: 30px; margin-left: 30px;border:3px solid #000000;" rows="7 " cols="70 " id="output1" readonly>    
+            <textarea style=" margin-top: 30px; margin-left: 30px;border:3px solid #800080;" rows="7 " cols="70 " id="output1" readonly>    
                 BLEU scores for single reference sentence.
             </textarea>
         </div>
         <div class="column ">
             <!-- <h1 style=" text-align :center ">Paraphrased Sentences</h1> -->
-            <textarea style=" margin-top: 30px; margin-left: 30px;border:3px solid #000000;" rows="7 " cols="70 " id="output2" readonly>    
+            <textarea style=" margin-top: 30px; margin-left: 30px;border:3px solid #800080;" rows="7 " cols="70 " id="output2" readonly>    
                 BLEU scores for multiple reference sentences.
             </textarea>
         </div>

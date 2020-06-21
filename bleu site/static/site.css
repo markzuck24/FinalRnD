@@ -1,7 +1,7 @@
 .column {
     float: left;
     width: 50%;
-    color: #4D4D4D;
+    color: #622569;
     align-content: center;
     margin: auto auto;
 }
@@ -13,7 +13,7 @@
     content: "";
     display: table;
     clear: both;
-    color: #4D4D4D;
+    color: #622569;
     /* float: left; */
     align-content: center;
     width: 50%;

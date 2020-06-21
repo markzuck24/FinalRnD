@@ -93,7 +93,7 @@ def toolBot(dataInput):
                     display.write(ss)
                     ss = "\n\n\nParaphrase #1:\n\n " + firstParaphrase+"\n"
 
-                    display.write(ss.decode('utf-8'))
+                    display.write(ss)
 
                     outputFile.close()
                     display.close()
@@ -142,7 +142,7 @@ def toolBot(dataInput):
                             ss = "\n\n\n\nParaphrase #" + \
                                 str(multiOutputCount)+":\n\n" + \
                                 laterParaphrase + "\n"
-                            display.write(ss.decode('utf-8'))
+                            display.write(ss)
 
                             # display.write("\n\n\n\nParaphrase #"+ str(multiOutputCount)+":\n\n "+laterParaphrase)
                             # display.write(firstParaphrase)
